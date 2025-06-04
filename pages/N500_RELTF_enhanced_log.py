@@ -1,4 +1,4 @@
-from Models.Enhanced_Log.model import mlr_base_results,svr_base_results,load_and_prepare_data
+from Models.model import mlr_base_results,svr_base_results,load_and_prepare_data
 import streamlit as st
 import pandas as pd
 st.title("Enhanced Log Multi Linear Regression and Support Vector Regression ")

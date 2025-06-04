@@ -1,4 +1,4 @@
-from Models.Enhanced_Log.model import predict_svr_residual,predict_residual_xgboost,load_and_prepare_data
+from Models.model import predict_svr_residual,predict_residual_xgboost,load_and_prepare_data
 import streamlit as st
 import pandas as pd
 st.title("Residual Model using SVM and XGBoost")

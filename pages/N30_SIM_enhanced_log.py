@@ -1,4 +1,4 @@
-from Models.Enhanced_Log.model import mlr_base_results,svr_base_results,load_and_prepare_data
+from Models.model import mlr_base_results,svr_base_results,load_and_prepare_data
 import streamlit as st
 import pandas as pd
 st.title("Enhanced Log Multi Linear Regression and Support Vector Regression ")
@@ -22,7 +22,7 @@ selected_input = input_sets[selected_set_name]
 input_df = pd.DataFrame([selected_input])
 
 # Example usage from Streamlit or another main script
-from Models.Enhanced_Log.model import load_and_prepare_data
+from Models.model import load_and_prepare_data
 
 X,X_scaled, y, label, scaler = load_and_prepare_data("30")  # or "30", or "RELTF"
 

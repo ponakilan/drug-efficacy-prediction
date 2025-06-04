@@ -1,4 +1,4 @@
-from Models.Enhanced_Log.ensemble import predict_drug
+from Models.ensemble import predict_drug
 import streamlit as st
 import pandas as pd
 st.title("LOGISTIC REGRESSION AND KNN")

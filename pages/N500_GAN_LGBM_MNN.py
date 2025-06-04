@@ -1,4 +1,4 @@
-from Models.Enhanced_Log.model import multitasknn,lightgbm,load_and_prepare_data
+from Models.model import multitasknn,lightgbm,load_and_prepare_data
 import streamlit as st
 import pandas as pd
 st.title("LIGHTGBM and MULTITASK-NN")
